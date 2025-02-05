@@ -1,0 +1,65 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+logs/
+*.log
+**/logs/
+**/*.log
+
+### Configuração sensível ###
+application.properties
+application.yml
+application.yaml
+*.secrets
+.env
+
+### Docker ###
+Dockerfile
+*.dockerignore
+
+### Dependências e cache ###
+.m2/
+.gradle/
+**/out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Arquivos temporários ###
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
