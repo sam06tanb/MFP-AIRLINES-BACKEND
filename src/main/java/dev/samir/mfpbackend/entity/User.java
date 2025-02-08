@@ -17,16 +17,16 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
     @Column(unique = true, nullable = false, length = 16)
     private String username;
 
-    @NotNull
     @Column(nullable = false)
     private String password;
 
-    @NotNull
     @Column(unique = true, nullable = false, length = 25)
     private String email;
+
+    @Column(nullable = false, unique = true)
+    private Long ticket;
 
 }
